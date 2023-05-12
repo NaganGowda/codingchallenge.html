@@ -11,6 +11,7 @@ body {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 .product {
@@ -46,6 +47,7 @@ article {
   color: black;
   margin-top: 10px;
   padding-top: ;
+  display: inline-block;
 }
 
 .listelements {
@@ -83,4 +85,71 @@ article {
 li {
   margin-bottom: 10px;
   margin-left: 20px;
+}
+
+.boxes {
+  display: flex;
+  margin-top: 15px;
+}
+
+.box-black {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.box-red {
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.box-blue {
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.box-yellow {
+  height: 20px;
+  width: 20px;
+  background-color: yellow;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.box-brown {
+  height: 20px;
+  width: 20px;
+  background-color: brown;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.box-green {
+  height: 20px;
+  width: 20px;
+  background-color: green;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.saletag {
+  background-color: red;
+  padding: 7px 15px;
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  top: -18px;
+  left: -38px;
+  letter-spacing: 2px;
 }
