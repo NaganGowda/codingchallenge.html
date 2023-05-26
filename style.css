@@ -1,10 +1,16 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: sans-serif;
+}
+
+.product-img {
+  float: left;
+  margin-right: 40px;
 }
 
 .container {
@@ -34,6 +40,7 @@ article {
 .price {
   font-weight: bolder;
   font-size: 25px;
+  float: left;
 }
 .shipping {
   text-transform: uppercase;
@@ -41,8 +48,13 @@ article {
   font-size: 12px;
   color: #777;
   margin-bottom: 20px;
+  float: right;
+  margin-left: 8px;
 }
 
+.product-description {
+  clear: both;
+}
 .more {
   color: black;
   margin-top: 10px;
@@ -57,7 +69,6 @@ article {
 .heading2 {
   text-transform: uppercase;
   font-size: 20px;
-  margin-top: 30px;
   margin-bottom: 15px;
 }
 
@@ -152,4 +163,17 @@ li {
   top: -18px;
   left: -38px;
   letter-spacing: 2px;
+}
+
+.one {
+  float: left;
+  width: 243px;
+  margin-right: 40px;
+  padding-top: 20px;
+}
+
+.two {
+  float: right;
+  width: 243px;
+  padding-top: 20px;
 }
